@@ -38,5 +38,6 @@ module.exports = {
   px2rem: {
     // see https://www.npmjs.com/package/px2rem
     remUnit: 75,
+    enable: false,
   }
 }

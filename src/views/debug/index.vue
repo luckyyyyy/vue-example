@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <p v-for="i in 4">
+    <p v-for="i in 4" :key="i">
       <mt-button @click="debugLogin('debug' + i)">设置用户debug{{ i }}</mt-button>
     </p>
 <!--     <p>
@@ -9,7 +9,7 @@
     </p> -->
     <a href="https://dev.haimanchajian.com/debug.php/site/debug-mock?id=4">Safari点此先设置cookie</a>
     <p v-if="user">
-      当前用户：{{ user.name }}
+      当前用户：{{ user }}
     </p>
     <p v-else>
       当前没用户
