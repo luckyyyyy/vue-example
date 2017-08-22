@@ -16,15 +16,20 @@
 First, clone the repo.
 
 ```bash
+
 git clone https://github.com/luckyyyyy/vue-example.git <yourAppName>
 cd <yourAppName>
+
 # Second, delete the old .git history and initialize new history.
 rm -rf .git
 git init
+
 # If you are in China, please modify the npm registry
 npm config set registry https://registry.npm.taobao.org
+
 # Third, install the dependencies.
 npm install
+
 # Then, launch the boilerplate app.
 npm run dev
 ```
