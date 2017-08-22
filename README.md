@@ -3,7 +3,7 @@
 > This repo is a boilerplate for vue-mobile project. You could use it as a base to build your own web app.
 
 ## Features
- * Equip with React, ES6 & Babel 6.
+ * Equip with Vue, ES6 & Babel 6.
  * Lint with ESlint and Airbnb's style sheet.
  * Build with Webpack 2 (support Webpack 2 & Webpack 3).
  * Support hot module replacement
